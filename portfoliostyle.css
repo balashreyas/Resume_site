@@ -1,0 +1,32 @@
+body
+{
+    background-image: url("wp7453711.jpg");
+    background-repeat: none;
+}
+hr{
+    border-color: #F6F1F1;
+    border-style: dashed none none none;
+    border-width: 4px;
+    height: 0px;
+    width: 50%;
+}
+.name
+{   
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 200%;
+}
+.links
+{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 200%; 
+}
+.links_2
+{
+    font-family: 'Alkatra';
+    font-size: 100%; 
+}
+.message
+{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 300%;
+}
