@@ -1,34 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0090)file:///C:/Users/abala/Desktop/HTML,CSS%20and%20JavaScript/HTML/personal%20data/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <title>My Portfolio</title>
-</head>
-<link rel="stylesheet" href="portfoliostyle.css">
+<link rel="stylesheet" href="./index_files/style.css"></head>
+
 <body>
+    <header>
+        <ul>
+            <li><a href="file:///C:/Users/abala/Desktop/HTML,CSS%20and%20JavaScript/HTML/personal%20data/index.html#" class="active" "="">Home</a></li>
+            <li><a href="file:///C:/Users/abala/Desktop/HTML,CSS%20and%20JavaScript/HTML/personal%20data/index.html#">About</a></li>
+            <li><a href="file:///C:/Users/abala/Desktop/HTML,CSS%20and%20JavaScript/HTML/personal%20data/index.html#">Projects</a></li>
+            <li><a href="file:///C:/Users/abala/Desktop/HTML,CSS%20and%20JavaScript/HTML/personal%20data/contact.html">Contact</a></li> 
+        </ul>
+        
+    </header>
     <center>
-    <table class="name" cellspacing="20" >
-        <tr>
-            <td><img src="me-modified.png" alt="My Photo"></td>
+    <table class="name" cellspacing="20">
+        <tbody><tr>
             <td><h1>Ambati Bala Shreyas Reddy</h1>
-                <p><em>Student At<a href="http://www.ngit.ac.in/"> Neil Gogte Institute of Technology</a></em></p>
-                <p><strong>Department of CSE(AI&ML)</strong></p>
+                <p class="college"><em>Student At<a href="http://www.ngit.ac.in/" class="college"> Neil Gogte Institute of Technology</a></em></p>
+                <p><strong>Department of CSE(AI&amp;ML)</strong></p>
             </td>
+            <td><img src="./index_files/me-modified.png" alt="My Photo"></td>
         </tr>
-    </table>
+    </tbody></table>
     </center>
-    <h1 class="about">About Me:</h1>
+    <h1 class="about" onclick="toggleAbout()">About Me:</h1>
     <center>
-    <table class="links" cellspacing="20" >
-        <tr>
-            <td><strong><a href="">Education  </strong> </td>
-            <td><strong><a href="">Skills  </strong> </td>
-            <td><strong><a href="">Projects  </strong> </td>
-            <td><strong><a href="contact.html">Contact </strong> </td>
-        </tr>
-    </table>
     <h2>PLEASE NOTE THIS IS A WORK IN PROGRESS SOME FEATURES MIGHT NOT WORK</h2>
     </center>
+    <script>
+        function toggleAbout() {
+            const aboutSection = document.querySelector('.about');
+            aboutSection.classList.toggle('active');
+        }
+    </script>
     
-</body>
-</html>
+
+</body></html>
